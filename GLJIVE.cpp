@@ -22,6 +22,5 @@ int main()
 		if(max<100)printf("%d",min);
     else if(100-min<max-100) printf("%d",min);
     else if(100-min>=max-100) printf("%d",max);
-    for(;;);
     return 0;
 }
